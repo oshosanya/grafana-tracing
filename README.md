@@ -24,3 +24,12 @@ You can visit the following routes
 Submitting the form on /register redirects you to the index route.
 
 You can view all traces on http://localhost:9411/
+
+
+## Further Improvements
+
+The trace endpoint can be created using the route `METHOD: path` to make viewing in 
+zipkin a bit more intuitive and remove reliance on route names.
+
+The laravel-zipkin project could also be forked so that any changes that need to be made to 
+make it easier to use can be done
